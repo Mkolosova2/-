@@ -1,0 +1,63 @@
+.main-sign {
+    width: 800px;
+    min-height: 510px;
+    margin: 30px auto;
+    border-radius: 5px;
+    background-color: #4b3d3d;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-block {
+	text-align: center;
+
+}
+
+.sign-text h1{
+	margin-top: 0;
+}
+
+.sign-input-list {
+	display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    
+}
+.sign-input {
+	margin: 5px auto 5px;
+	width: 400px;
+	height: 50px;
+	border-radius: 5px;
+}
+::placeholder{
+	transform: translate(5px,0)
+}
+
+
+.sign-button-list {
+	display: flex;
+    flex-direction: column;
+
+}
+
+.sign-button {
+	border-radius: 5px;
+	margin: 5px auto 5px;
+	width: 400px;
+	height: 50px;
+	background-color: #645e5e;
+	color: white;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: 400;
+	border: none;
+
+}
+#mail:hover {
+	background-color: #9f9696;
+}
+#pass:hover {
+	background-color: #9f9696;
+}
